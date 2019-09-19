@@ -5,6 +5,7 @@
 
   <%= f.input :reset_password_token, as: :hidden %>
   <%= f.full_error :reset_password_token %>
+  <%= link_to "Change your password", edit_user_registration_path %>
 
   <div class="form-inputs">
     <%= f.input :password,
