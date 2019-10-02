@@ -74,8 +74,13 @@
         color: #000033;
         background: #2e6ab1 + 60;
         padding: 0.1em 0.25em;
-      }
+        }
+    }
+
+    .invalid-feedback {
+      color: #ff3333;
+      background-color: #FFEEEE;
+      border-radius: 3px;
+      padding: 2px 8px 2px 8px;
     }
   }
-
-
